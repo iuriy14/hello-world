@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="Ctili.css" rel="stylesheet" type="text/css"/>
+    <title>Повторение html</title>
+</head>
+
+<body>
+   
+<div id="Test">CSS3</div>
+    
+
+    <input value="Тэги , атрибуты!" /><br />
+    <textarea>Goooooooooood</textarea>
+</body>
+
+</html>
+
+                      Стили
+body {
+    background-image: url(images/33340323-1084437.jpg)
+}
+
+
+#Test {
+transform: rotate(0deg) scale(0.5);
+transition: 5s all;
+
+    background-color: rgb(134, 188, 192);
+    color: rgb(5, 5, 5);
+    padding: 15px;
+    margin: 15px;
+    border: 7px solid rgb(80, 82, 87);
+    border-radius: 10px;
+    opacity: 0.6;
+    box-shadow: 8px 8px 8px black;
+    display: block;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: monospace;
+}
+#Test:hover {
+    transform: rotate(360deg) scale(0.5);
+}
